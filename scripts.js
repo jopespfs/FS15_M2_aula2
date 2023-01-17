@@ -1,8 +1,7 @@
 // document.getElementById("container").innerHTML = "conteudo";
 // document.getElementById("container").innerHTML = "otra coisa";
 
-let container = document.getElementById("container");
-
+let container = document.getElementById('container')
 
 // ----------------------------------------
 
@@ -15,7 +14,7 @@ let container = document.getElementById("container");
 // container.innerHTML = soma;
 
 // ----------------------------------------
- 
+
 // let texto = "Meu Nome é: ";
 // let nome = "João Pedro S P F Santos"
 
@@ -37,9 +36,26 @@ let container = document.getElementById("container");
 
 // ----------------------------------------
 
-function somar()
-{
-  let v1 = Number(valor1.value);
-  let v2 = Number(valor2.value);
-  document.getElementById("resultado").innerHTML = v1 + v2;
+function somar() {
+  let v1 = Number(valor1.value)
+  let v2 = Number(valor2.value)
+  document.getElementById('resultado').innerHTML = v1 + v2
+}
+
+function subtrair() {
+  let v1 = Number(valor1.value)
+  let v2 = Number(valor2.value)
+  document.getElementById('resultado').innerHTML = v1 - v2
+}
+
+function mutiplicar() {
+  let v1 = Number(valor1.value)
+  let v2 = Number(valor2.value)
+  document.getElementById('resultado').innerHTML = v1 * v2
+}
+
+function dividir() {
+  let v1 = Number(valor1.value)
+  let v2 = Number(valor2.value)
+  document.getElementById('resultado').innerHTML = v1 / v2
 }
